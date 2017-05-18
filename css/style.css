@@ -1,0 +1,113 @@
+
+body{
+  background: url(../img/bgImage.png) no-repeat;
+  background-size: cover;
+}
+.loginBox button{
+  width: 80px;
+}
+.formBox{
+  position: absolute;
+  padding: 0 50px;
+  top: 50%;
+  left:30%;
+  margin-top:-130px;
+  text-align: center;
+  background:#f9f9f9;
+  border-radius: 6px;
+  height:260px;
+}
+.leftNav{
+  line-height: 50px;
+  text-align: center;
+  font-size: 12px;
+}
+.leftNav li{
+  list-style: none;
+  border-bottom:1px solid #eee;
+}
+.subNav li{
+  height: 30px;
+  line-height: 30px;
+}
+.subNav li a{
+  color: #777;
+}
+.leftNav .active{
+  background-color: #E7E7E7;
+}
+#tableBox{
+  font-size: 12px;
+}
+#tableBox td{
+  margin: 0;
+  padding: 5px;
+}
+#center th{
+  text-align: center;
+}
+#navBottom li{
+  border: 1px solid #ddd;
+  margin-right: 20px;
+  border-radius: 8px;
+  background-color: #e7e7e7;
+}
+#submitInfo{
+  display: inline-block;
+  width: 100px;
+    height: 36px;
+    background: #449d44;
+    opacity: 1;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: normal;
+}
+
+#navbarRight{
+  background: url(../img/link.png) #fff no-repeat;
+  background-size: contain;
+  font-size: 16px;
+}
+#navbarRight2{
+  background: url(../img/custom.png) #fff no-repeat;
+  background-size: contain;
+  font-size: 16px;
+}
+#navbarRight ul li{
+  padding-left: 20px;
+  line-height: 40px;
+  list-style: none;
+  border-bottom: 1px solid #f7f7f7;
+  font-size: 14px;
+}
+#navbarRight ul li a{
+  color: #444;
+}
+#tip{
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .leftNav{
+    font-size: 13px;
+  }
+  #tableBox{
+    font-size: 13px;
+  }
+  #tip{
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .leftNav{
+    font-size: 14px;
+  }
+  #tableBox{
+    font-size: 14px;
+  }
+  #tip{
+    font-size: 25px;
+  }
+}
